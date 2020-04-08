@@ -357,5 +357,5 @@ def subirQuiz(questions, quiz:Quiz):
     # Afin d'éviter les division par zéro.
     if not total_points == 0:
         # Calcul & affichage du pourcentage.
-        print("Vouz avez obtenu la note ne pourcentage de: " + str(point_accumules / total_points * 100.0) + "%")
+        print("Vouz avez obtenu la note de: " + str(point_accumules / total_points * 100.0) + "%")
 
