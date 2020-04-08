@@ -1,0 +1,16 @@
+{
+    "enonce": "Ceci est une question serieuse",
+    "description_choix": {
+        "a": "vraiment serieuse",
+        "b": "pas tres serieuse",
+        "c": "pas du tout",
+        "d": "D la reponse D"
+    },
+    "ponderation_choix": {
+        "a": 10,
+        "b": 5,
+        "c": 0,
+        "d": 1
+    },
+    "id": "bb51814aaee3bc157db46596ff6158f7"
+}

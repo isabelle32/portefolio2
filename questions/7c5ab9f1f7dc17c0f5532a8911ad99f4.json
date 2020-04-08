@@ -1,0 +1,16 @@
+{
+    "enonce": "Quelle est la masse d'un électron au repos?",
+    "description_choix": {
+        "a": "1 Kg",
+        "b": "0.511 Mev/C2",
+        "c": "0.00001g",
+        "d": "2 lbs"
+    },
+    "ponderation_choix": {
+        "a": 0,
+        "b": 1,
+        "c": 0,
+        "d": 0
+    },
+    "id": "7c5ab9f1f7dc17c0f5532a8911ad99f4"
+}
