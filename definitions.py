@@ -358,5 +358,5 @@ def subirQuiz(questions, quiz:Quiz):
 
     else:
         # Affichage du score et du pourcentage obtenu.
-        print("Vous avez eu: " + str(point_accumules) + " sur un total de: " + str(total_points) " Soit: " + str(point_accumules / total_points * 100.0) + "%")
+        print("Vous avez eu: " + str(point_accumules) + " sur un total de: " + str(total_points) + " Soit: " + str(point_accumules / total_points * 100.0) + "%")
 
