@@ -351,11 +351,12 @@ def subirQuiz(questions, quiz:Quiz):
         # La fonction getattr permet d'utiliser une chaîne de caractère comme nom de variable (a, b, c ou d) dans la classe PonderationChoix.
         point_accumules += getattr(question.ponderation_choix, reponse)
 
-    # Affichage du score de l'utlisateur.
-    print("Vous avez eu: " + str(point_accumules) + " sur un total de: " + str(total_points) + ".")
-
     # Afin d'éviter les division par zéro.
-    if not total_points == 0:
-        # Calcul & affichage du pourcentage.
-        print("Vouz avez obtenu la note de: " + str(point_accumules / total_points * 100.0) + "%")
+    if total_points == 0:
+        # Affichage du score de l'utlisateur.
+        print("Vous avez eu: " + str(point_accumules) + " sur un total de: " + str(total_points) + ".")
+
+    else:
+        # Affichage du score et du pourcentage obtenu.
+        print("Vous avez eu: " + str(point_accumules) + " sur un total de: " + str(total_points) " Soit: " + str(point_accumules / total_points * 100.0) + "%")
 
